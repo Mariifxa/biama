@@ -1,0 +1,181 @@
+﻿<!doctype html>
+<html>
+<head>
+<title> BIAMA </title>
+
+<link rel="stylesheet" type="text/css" href="tiposmaterial.css">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head lang="en">
+
+<style>
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+</head>
+<!---Content starts here -->
+<body>
+
+
+<header>	
+<h5>REGISTO/ ENTRAR</h5>
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class="header">
+  <img src="http://i65.tinypic.com/bdb3c.jpg">
+  </div>
+	
+	<div id="navbar">
+		<nav>
+<ul>
+        <li><a href="projeto.html">Projeto</a></li>
+        <li><a> Biblioteca</a>
+            <ul>
+                <li><a href="listacompleta.html"> Lista Completa </a></li>
+                <li><a href="tiposdematerial.html">Tipos de Material</a></li>
+            </ul>
+        </li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="aminhabiblioteca.html">A minha biblioteca</a></li>
+		<li><a href="contactos.html">Contactos</a></li>
+		
+    </ul>
+	</nav>
+	
+	<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Pesquisar.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+
+
+<div class="content">
+</header>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+</script>
+
+
+
+<div id="container" class="col-9 "> 
+
+<section>
+<a name="unordered">
+<h2>Lista Completa</h2>
+
+<div class="responsive"> 
+  <div class="gallery">
+   <a target="_blank" href="carvalho.html">
+      <img src="http://i64.tinypic.com/r058a9.jpg" alt="Carvalho" width="600" height="400">
+    </a>
+    <div class="desc">Carvalho</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="mahogany.html">
+      <img src="http://i67.tinypic.com/23w0b9s.jpg" alt="Madeira" width="600" height="400">
+    </a>
+    <div class="desc">Mahogany (Mogno) </div>
+  </div>
+</div>
+
+
+<div class="responsive"> 
+  <div class="gallery">
+    <a target="_blank" href="mdf.html">
+      <img src="http://i64.tinypic.com/fcog8w.jpg" alt="Madeira" width="600" height="400">
+    </a>
+    <div class="desc">MDF</div>
+  </div>
+</div>
+
+
+<div class="responsive"> 
+  <div class="gallery">
+    <a target="_blank" href="pine.html">
+      <img src="http://i63.tinypic.com/358yzw5.jpg" alt="Madeira" width="600" height="400">
+    </a>
+    <div class="desc">Pinheiro</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+
+</section>
+
+
+
+<footer>
+
+<h2>Developed by Mariana Almeida e Selma Mesquita</h2>
+</footer> 
+
+</body>
+<!---Content ends here -->
+</html> 
